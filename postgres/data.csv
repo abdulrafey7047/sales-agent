@@ -1,0 +1,51 @@
+first_name,last_name,postal_code,city,age,gender,product_name,category,price,sale_date
+Alice,Johnson,10001,New York,28,Female,Wireless Mouse,Electronics,25.99,2023-01-01 09:00:00
+Bob,Smith,90210,Beverly Hills,35,Male,Mechanical Keyboard,Electronics,89.00,2023-01-01 10:15:00
+Charlie,Davis,60601,Chicago,42,Male,27-inch Monitor,Electronics,249.99,2023-01-02 11:00:00
+Diana,Prince,33101,Miami,31,Female,USB-C Hub,Accessories,45.00,2023-01-02 14:30:00
+Ethan,Hunt,94102,San Francisco,40,Male,Desk Lamp,Furniture,35.50,2023-01-03 08:45:00
+Fiona,Gallagher,60609,Chicago,24,Female,Office Chair,Furniture,199.00,2023-01-03 16:20:00
+George,Costanza,10019,New York,45,Male,Standing Desk,Furniture,450.00,2023-01-04 09:10:00
+Hannah,Abbott,02108,Boston,22,Female,Coffee Mug,Kitchen,12.99,2023-01-04 10:00:00
+Ian,Wright,07030,Hoboken,38,Male,French Press,Kitchen,34.00,2023-01-05 07:30:00
+Julia,Child,93101,Santa Barbara,50,Female,Chef Knife,Kitchen,120.00,2023-01-05 13:15:00
+Kevin,Hart,19102,Philadelphia,43,Male,Yoga Mat,Fitness,29.99,2023-01-06 17:45:00
+Laura,Palmer,98065,Snoqualmie,21,Female,Dumbbell Set,Fitness,55.00,2023-01-06 18:00:00
+Mike,Wazowski,60601,Chicago,29,Male,Water Bottle,Fitness,18.50,2023-01-07 11:20:00
+Nina,Simone,27401,Greensboro,48,Female,Vinyl Player,Audio,150.00,2023-01-07 14:00:00
+Oscar,Isaac,33139,Miami,44,Male,Bluetooth Speaker,Audio,79.00,2023-01-08 10:30:00
+Alice,Johnson,10001,New York,28,Female,Noise Cancelling Headphones,Audio,299.00,2023-01-08 12:00:00
+Bob,Smith,90210,Beverly Hills,35,Male,Webcam 1080p,Electronics,65.00,2023-01-09 15:45:00
+Charlie,Davis,60601,Chicago,42,Male,Laptop Stand,Accessories,39.99,2023-01-09 16:30:00
+Diana,Prince,33101,Miami,31,Female,Notebook Journal,Stationery,15.00,2023-01-10 09:00:00
+Ethan,Hunt,94102,San Francisco,40,Male,Fountain Pen,Stationery,25.00,2023-01-10 10:15:00
+Fiona,Gallagher,60609,Chicago,24,Female,Desk Mat,Accessories,22.00,2023-01-11 11:45:00
+George,Costanza,10019,New York,45,Male,External Hard Drive,Electronics,110.00,2023-01-11 13:20:00
+Hannah,Abbott,02108,Boston,22,Female,Electric Kettle,Kitchen,45.00,2023-01-12 08:10:00
+Ian,Wright,07030,Hoboken,38,Male,Toaster,Kitchen,30.00,2023-01-12 08:50:00
+Julia,Child,93101,Santa Barbara,50,Female,Air Fryer,Kitchen,99.00,2023-01-13 14:00:00
+Kevin,Hart,19102,Philadelphia,43,Male,Resistance Bands,Fitness,15.00,2023-01-13 18:30:00
+Laura,Palmer,98065,Snoqualmie,21,Female,Running Shoes,Fitness,120.00,2023-01-14 07:00:00
+Mike,Wazowski,60601,Chicago,29,Male,Backpack,Travel,55.00,2023-01-14 12:45:00
+Nina,Simone,27401,Greensboro,48,Female,Travel Pillow,Travel,19.99,2023-01-15 09:30:00
+Oscar,Isaac,33139,Miami,44,Male,Power Bank,Electronics,40.00,2023-01-15 15:00:00
+Alice,Johnson,10001,New York,28,Female,Mechanical Keyboard,Electronics,89.00,2023-01-16 10:00:00
+Bob,Smith,90210,Beverly Hills,35,Male,Wireless Mouse,Electronics,25.99,2023-01-16 11:00:00
+Charlie,Davis,60601,Chicago,42,Male,USB-C Hub,Accessories,45.00,2023-01-17 14:00:00
+Diana,Prince,33101,Miami,31,Female,27-inch Monitor,Electronics,249.99,2023-01-17 15:30:00
+Ethan,Hunt,94102,San Francisco,40,Male,Office Chair,Furniture,199.00,2023-01-18 09:20:00
+Fiona,Gallagher,60609,Chicago,24,Female,Desk Lamp,Furniture,35.50,2023-01-18 10:45:00
+George,Costanza,10019,New York,45,Male,Coffee Mug,Kitchen,12.99,2023-01-19 11:00:00
+Hannah,Abbott,02108,Boston,22,Female,French Press,Kitchen,34.00,2023-01-19 12:15:00
+Ian,Wright,07030,Hoboken,38,Male,Chef Knife,Kitchen,120.00,2023-01-20 08:30:00
+Julia,Child,93101,Santa Barbara,50,Female,Electric Kettle,Kitchen,45.00,2023-01-20 13:45:00
+Kevin,Hart,19102,Philadelphia,43,Male,Dumbbell Set,Fitness,55.00,2023-01-21 17:00:00
+Laura,Palmer,98065,Snoqualmie,21,Female,Yoga Mat,Fitness,29.99,2023-01-21 18:30:00
+Mike,Wazowski,60601,Chicago,29,Male,Vinyl Player,Audio,150.00,2023-01-22 10:00:00
+Nina,Simone,27401,Greensboro,48,Female,Bluetooth Speaker,Audio,79.00,2023-01-22 14:15:00
+Oscar,Isaac,33139,Miami,44,Male,Noise Cancelling Headphones,Audio,299.00,2023-01-23 11:00:00
+Alice,Johnson,10001,New York,28,Female,Webcam 1080p,Electronics,65.00,2023-01-23 15:30:00
+Bob,Smith,90210,Beverly Hills,35,Male,Laptop Stand,Accessories,39.99,2023-01-24 09:45:00
+Charlie,Davis,60601,Chicago,42,Male,Notebook Journal,Stationery,15.00,2023-01-24 16:00:00
+Diana,Prince,33101,Miami,31,Female,Fountain Pen,Stationery,25.00,2023-01-25 10:20:00
+Ethan,Hunt,94102,San Francisco,40,Male,Desk Mat,Accessories,22.00,2023-01-25 13:10:00

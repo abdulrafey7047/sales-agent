@@ -1,0 +1,59 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: postgres
+    restart: always
+    volumes:
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres/data.csv:/var/lib/postgresql/csv_data/data.csv
+    env_file:
+      - postgres/.env
+    ports:
+      - "5432:5432"
+    networks:
+      - agent_network
+    healthcheck:
+      # This command checks if the server is responding on port 8000
+      test: ["CMD", "curl", "-f", "http://localhost:8000/sse"]
+      interval: 5s      # How often to check
+      timeout: 5s       # How long to wait for a response
+      retries: 5        # How many times to try before giving up
+      start_period: 10s # Wait 10s before starting checks (gives Python time to boot)
+
+  postgres-mcp:
+    build: 
+      context: ./mcp/postgres
+      dockerfile: Dockerfile
+    container_name: postgres-mcp
+    restart: always
+    volumes:
+      - ./mcp/postgres:/app
+    env_file:
+      - mcp/postgres/.env
+    ports:
+      - "8000:8000"
+    networks:
+      - agent_network
+    depends_on:
+      - db
+
+  agent:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: agent
+    volumes:
+      - ./app:/app
+    env_file:
+      - app/.env
+    ports:
+      - "8001:8001"
+    networks:
+      - agent_network
+    # depends_on:
+    #   postgres-mcp:
+    #     condition: service_healthy
+
+networks:
+  agent_network:
+    driver: bridge
