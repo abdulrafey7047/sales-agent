@@ -97,7 +97,3 @@ docker compose logs db
 ## License
 
 This repository contains example/demo code; add a LICENSE file to indicate terms if you plan to publish or reuse this project.
-
----
-
-If you want, I can expand sections (API examples, endpoints list, environment variables) or add a minimal `Makefile` and a health-check example. Let me know which extras you'd like.
